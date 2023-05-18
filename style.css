@@ -21,8 +21,6 @@ justify-content: center;
 align-items: center;
 }
 .card{
-/* border: 1px solid black;
-border-radius: 5px; */
 width: 40rem;
 padding: 20px 30px;
 display: grid;
@@ -103,4 +101,56 @@ grid-template-columns: repeat(2,1fr);
   color: var(--clr-Light-Gray);
   line-height: 20px;
   margin-right: 45px;
+}
+@media screen and (max-width:768px) {
+  .box{
+    min-height: 100vh;
+    min-width: 100vw;
+  }
+  .card{
+width: 20rem;
+padding: 20px 20px;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-content: center;
+}
+.card-one{
+  padding: 20px;
+}
+.heading{
+  font-size: 14px;
+}
+.description-one{
+  font-size: 13px;
+}
+.description-two{
+  font-size: 12px;
+}
+.card-two{
+  border-bottom-left-radius: 0px;
+  padding: 20px;
+}
+.heading-two{
+  font-size: 14px;
+}
+.dollar{
+  font-size: 20px;
+}
+.month{
+  font-size: 13px;
+}
+.content-two{
+  font-size: 13px;
+}
+.card-three{
+  border-bottom-left-radius: 7px;
+  padding: 20px;
+}
+.heading-three{
+  font-size: 14px;
+}
+.content-three{
+  font-size: 11px;
+}
 }
